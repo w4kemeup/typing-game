@@ -1,0 +1,17 @@
+{
+  "name": "fast-typing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/css/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.1",
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  }
+}
